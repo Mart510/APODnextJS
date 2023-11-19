@@ -4,7 +4,7 @@ export function ApodImageCard({image, imageAlt}) {
     // component return
     return (
         <>
-        <img src={image} alt={imageAlt} className="w-96 rounded-2xl"/> 
+        <img src={image} alt={imageAlt} className="rounded-2xl"/> 
         </>
     )
 }

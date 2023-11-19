@@ -2,7 +2,6 @@
 const API_KEY = process.env.API_KEY
 
 
-
 export async function apodFetcher({fetchSelector = 'blank'} = {}) {
     // if null just get the APOD
     if (fetchSelector === 'blank') {
